@@ -1,0 +1,11 @@
+{
+    "require": {
+        "hirak/prestissimo": "^0.3.8",
+        "spatie/phpunit-watcher": "^1.7",
+        "cpriego/valet-linux": "^2.0",
+        "laravel/installer": "^2.0",
+        "friendsofphp/php-cs-fixer": "^2.14",
+        "liuggio/fastest": "^1.6",
+        "brianium/paratest": "^3.0"
+    }
+}
