@@ -60,6 +60,7 @@ alias grv='git remote -v'
 alias gitcleanup='git reset --hard && git clean -df'
 alias wip='git add . && git commit -m "wip"'
 alias gitundo='git reset HEAD~1'
+alias gitamend='git add . && git commit --amend'
 
 # MySQL Database
 alias dbcreate='mysqladmin -uroot -p create'
