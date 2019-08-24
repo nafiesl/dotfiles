@@ -18,7 +18,11 @@
         "SynapseZeitgeistRelated",
         "SynapseRhythmboxActions",
         "SynapseChromiumPlugin",
-        "SynapseScreenSaverPlugin"
+        "SynapseScreenSaverPlugin",
+        "SynapseCalculatorPlugin",
+        "SynapseOpenSearchPlugin",
+        "SynapsePidginPlugin",
+        "SynapseSshPlugin"
       ]
     }
   }
