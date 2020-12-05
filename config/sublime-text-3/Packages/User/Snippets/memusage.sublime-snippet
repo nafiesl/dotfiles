@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[
+\$startMemory = memory_get_usage();
+// PHP Scritps
+\$endMemory = memory_get_usage();
+
+dd(formatNo((\$endMemory - \$startMemory) / 1024).' MB');
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>memusage</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <!-- <scope>source.python</scope> -->
+</snippet>

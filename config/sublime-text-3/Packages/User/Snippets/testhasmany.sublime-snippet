@@ -1,0 +1,16 @@
+<snippet>
+    <content><![CDATA[
+/** @test */
+public function a_${1:model}_has_many_${2:relation}s_relation()
+{
+    \$${1:model} = factory(${3:Model}::class)->create();
+    \$${2:relation} = factory(${4:RelatedModel}::class)->create(['${1:model}_id' => \$${1:model}->id]);
+
+    \$this->assertInstanceOf(Collection::class, \$${1:model}->${2:relation}s);
+    \$this->assertInstanceOf(${4:RelatedModel}::class, \$${1:model}->${2:relation}s->first());
+}
+]]></content>
+    <tabTrigger>testhasmany</tabTrigger>
+    <description>Create Laravel hasMany test relation</description>
+    <!-- <scope>.php</scope> -->
+</snippet>

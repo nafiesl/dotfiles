@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+\$${2:variableData} = [];
+return view('${1:view.name}', compact('${2:variableData}'));
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>retview</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.php</scope>
+</snippet>

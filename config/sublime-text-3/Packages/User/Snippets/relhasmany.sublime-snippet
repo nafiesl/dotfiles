@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+public function ${1:relation}()
+{
+    return \$this->hasMany(${2:RelatedClass}::class);
+}
+]]></content>
+    <tabTrigger>relhasmany</tabTrigger>
+    <description>Create Laravel hasMany relation</description>
+    <!-- <scope>.php</scope> -->
+</snippet>

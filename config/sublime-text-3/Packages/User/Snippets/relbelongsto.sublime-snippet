@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+public function ${1:relation}()
+{
+    return \$this->belongsTo(${2:RelatedClass}::class)->withDefault(['name' => 'n/a']);
+}
+]]></content>
+    <tabTrigger>relbelongsto</tabTrigger>
+    <description>Create Laravel belongsTo relation</description>
+    <!-- <scope>.php</scope> -->
+</snippet>

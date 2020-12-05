@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[
+Artisan::command('${2:new-command}', function () {
+    ${3}
+
+    \$this->info('Artisan command done.');
+})->describe('${1:What is this command do}');
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>artcommand</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.php</scope>
+</snippet>

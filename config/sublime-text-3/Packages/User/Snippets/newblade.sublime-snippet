@@ -1,0 +1,16 @@
+<snippet>
+    <content><![CDATA[
+@extends('layouts.app')
+
+@section('title', __('${1:this}'))
+
+@section('content')
+<h2 class="page-header">{{ __('${1:this}') }}</h2>
+
+@endsection
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>newblade</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <!-- <scope>source.python</scope> -->
+</snippet>

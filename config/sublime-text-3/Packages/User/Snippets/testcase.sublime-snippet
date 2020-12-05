@@ -1,0 +1,25 @@
+<snippet>
+    <content><![CDATA[
+<?php
+
+namespace Tests\\${1:Unit};
+
+use Illuminate\Foundation\Testing\DatabaseTransactions;
+use Tests\TestCase;
+
+class ${2:TestClass}Test extends TestCase
+{
+    use DatabaseTransactions;
+
+    /** @test */
+    public function ${3:it_}()
+    {
+        ${4:}
+    }
+}
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>testcase</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <!-- <scope>source.python</scope> -->
+</snippet>

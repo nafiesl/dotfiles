@@ -1,0 +1,22 @@
+<snippet>
+    <content><![CDATA[
+<table class="table table-sm">
+    <thead>
+        <tr>
+            <th class="text-center">{{ __('app.table_no') }}</th>
+            <th class="text-center">${1:title}</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td class="text-center">{{ 1 + $key }}</td>
+            <td>${2:body}</td>
+        </tr>
+    </tbody>
+</table>
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>tablebs4</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <!-- <scope>source.python</scope> -->
+</snippet>
