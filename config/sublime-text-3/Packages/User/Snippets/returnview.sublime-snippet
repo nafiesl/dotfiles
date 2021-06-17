@@ -1,6 +1,5 @@
 <snippet>
     <content><![CDATA[
-\$${2:variableData} = [];
 return view('${1:view.name}', compact('${2:variableData}'));
 ]]></content>
     <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->

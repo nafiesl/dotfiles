@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-echo '<pre>${1:} : ', var_dump(${1:}), '</pre>';
+echo '<pre>${2:dump} : ', var_dump(${1:}), '</pre>';
 die();
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->

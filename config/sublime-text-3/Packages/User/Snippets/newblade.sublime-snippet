@@ -2,10 +2,10 @@
     <content><![CDATA[
 @extends('layouts.app')
 
-@section('title', __('${1:this}'))
+@section('title', trans('${1:this}'))
 
 @section('content')
-<h2 class="page-header">{{ __('${1:this}') }}</h2>
+<h2 class="page-header">{{ trans('${1:this}') }}</h2>
 
 @endsection
 ]]></content>

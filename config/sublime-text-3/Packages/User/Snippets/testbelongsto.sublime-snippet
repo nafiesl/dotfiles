@@ -1,7 +1,7 @@
 <snippet>
     <content><![CDATA[
 /** @test */
-public function a_${1:model}_has_belongs_to_${2:relation}_relation()
+public function ${1:model}_model_has_belongs_to_${2:relation}_relation()
 {
     \$${1:model} = factory(${3:Model}::class)->make();
 

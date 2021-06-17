@@ -2,7 +2,7 @@
     <content><![CDATA[
 public function ${1:relation}()
 {
-    return \$this->belongsTo(${2:RelatedClass}::class)->withDefault(['name' => 'n/a']);
+    return \$this->belongsTo(${2:RelatedClass}::class);
 }
 ]]></content>
     <tabTrigger>relbelongsto</tabTrigger>

@@ -1,7 +1,7 @@
 <snippet>
     <content><![CDATA[
 /** @test */
-public function a_${1:model}_has_many_${2:relation}s_relation()
+public function ${1:model}_model_has_has_many_${2:relation}s_relation()
 {
     \$${1:model} = factory(${3:Model}::class)->create();
     \$${2:relation} = factory(${4:RelatedModel}::class)->create(['${1:model}_id' => \$${1:model}->id]);

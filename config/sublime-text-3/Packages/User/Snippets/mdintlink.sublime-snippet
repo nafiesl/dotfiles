@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-[${1:label}]({{ site.baseurl }}{% post_url ${2:post-name} %})\{:target="_blank"\}
+[${1:label}]({{< ref ${2:post-name} >}})
 ]]></content>
     <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
     <tabTrigger>mdintlink</tabTrigger>
