@@ -60,9 +60,9 @@ parse_git_branch() {
     git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/(\1)/'
 }
 if [ "$color_prompt" = yes ]; then
-    PS1='\n[\t] ${debian_chroot:+($debian_chroot)}\[\033[01;32m\]➜\[\033[00m\] \[\033[01;34m\]\W \[\033[01;31m\]$(parse_git_branch)\n\[\033[00m\]\$ '
+    PS1='\n[\D{%Y-%m-%d} \t] ${debian_chroot:+($debian_chroot)}\[\033[01;32m\]➜\[\033[00m\] \[\033[01;34m\]\W \[\033[01;31m\]$(parse_git_branch)\n\[\033[00m\]\$ '
 else
-    PS1='${debian_chroot:+($debian_chroot)}\u@\h:\w$(parse_git_branch)\$ '
+    PS1='[\D{%Y-%m-%d} \t] ${debian_chroot:+($debian_chroot)}➜ \W $(parse_git_branch)\n\$ '
 fi
 unset color_prompt force_color_prompt
 
